@@ -2,18 +2,17 @@
 The code helps in creating a dynamic de bruijn graph, supporting both addition/deletion of nodes from it while taking a minimal memory space.
 ## System Requirements :
 
-* [OS]          : Linux (Tested on Ubuntu 16.04 LTS) (64 BIT Version)
-* [ARCHITECTURE]: 64 BIT  
-* [Memory]      : Based on file executed. Recommeneded : Atleast 8GB.
-* [Compiler]    : g++
+* **OS**          : Linux (Tested on Ubuntu 16.04 LTS) (64 BIT Version)
+* **ARCHITECTURE**: 64 BIT  
+* **Memory**      : Based on file executed. Recommeneded : Atleast 8GB.
+* **Compiler**    : g++
 ## STEPS :-
 1. Download fully_dynamic_dbg.zip from website.
 2. Extract fully_dynamic_dbg.zip.
 3. Open terminal(Ctrl+Shift+T in Ubuntu) and goto extracted fully_dynamic_dbg/ directory (Command : cd /home/<username>/Downloads/fully_dynamic_dbg). Or you can right click on the extracted   fully_dynamic_dbg directory and click on open in terminal.
 4. Run 'make' command to build binary.
 5. This will generate 3 binary files:-  
-  
-  1. dbg  
+  5.1. dbg  
   * **DESCRIPTION**       : Used to test construction of data structure for a given fastq file as input.  
   * **EXECUTION COMMAND** : 
 ```
@@ -29,7 +28,7 @@ The code helps in creating a dynamic de bruijn graph, supporting both addition/d
 
 ```
   
-  2. dbg_unit_test
+  5.2. dbg_unit_test
   * **DESCRIPTION** 	    : Used for unit testing a sample fastq file already present in current directory : unit_test.fastq  
   	              Edit searchNodes.txt to specify what all nodes to search. (Sample nodes already present)  
                   Edit insertNodes.txt to specify what all nodes to insert. (Sample nodes already present)  
@@ -47,7 +46,7 @@ The code helps in creating a dynamic de bruijn graph, supporting both addition/d
 ```
 
   Can open generated unit_test_debruijn.txt to see the De Bruijn Graph.
-  3. norovirus_test
+  5.3. norovirus_test
   ** [DESCRIPTION] : Used for testing construction of datastructure for norovirus.fastq input file.
   ** [EXECUTION COMMAND] : 
 ```
