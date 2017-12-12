@@ -14,40 +14,25 @@ The code helps in creating a dynamic de bruijn graph, supporting both addition/d
 5. This will generate 3 binary files:-  
   5.1. **dbg**  
     * **DESCRIPTION**       : Used to test construction of data structure for a given fastq file as input.  
-    * **EXECUTION COMMAND** : 
-```
-  ./dbg <input_file.fastq>
-```
+    * **EXECUTION COMMAND** : ./dbg <input_file.fastq>  
+    * **EXAMPLE COMMAND**   : ./dbg norovirus.fastq  
 
-    * **EXAMPLE COMMAND**   : 
 
-```
-./dbg norovirus.fastq
-```
-  
   5.2. **dbg_unit_test**  
     * **DESCRIPTION** 	    :
       - Used for unit testing a sample fastq file already present in current directory : unit_test.fastq  
       - Edit searchNodes.txt to specify what all nodes to search. (Sample nodes already present)  
       - Edit insertNodes.txt to specify what all nodes to insert. (Sample nodes already present)  
       - Edit deleteNodes.txt to specify what all nodes to delete. (Sample nodes already present)  
-    * **EXECUTION COMMAND** : 
-```
-./dbg_unit_test 
-```
-    * **EXAMPLE**           : 
-```
-./dbg_unit_test
-```
+    * **EXECUTION COMMAND** : ./dbg_unit_test  
+    * **EXAMPLE**           : ./dbg_unit_test  
     Can open generated unit_test_debruijn.txt to see the De Bruijn Graph.
   
   5.3. **norovirus_test**  
     * **DESCRIPTION** : Used for testing construction of datastructure for norovirus.fastq input file.
-    * **EXECUTION COMMAND** : 
-```
-./norovirus_test 
-```
-    * **EXAMPLE**           : ./norovirus_test
+    * **EXECUTION COMMAND** : ./norovirus_test  
+    
+    * **EXAMPLE**           : ./norovirus_test  
     Can open generated norovirus.txt to see the De Bruijn Graph
 
 * For any queries Contact us using our website/Contact section.
