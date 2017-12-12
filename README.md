@@ -2,10 +2,10 @@
 The code helps in creating a dynamic de bruijn graph, supporting both addition/deletion of nodes from it while taking a minimal memory space.
 ## System Requirements :
 
-*[OS]          : Linux (Tested on Ubuntu 16.04 LTS) (64 BIT Version)
-*[ARCHITECTURE]: 64 BIT  
-*[Memory]      : Based on file executed. Recommeneded : Atleast 8GB.
-*[Compiler]    : g++
+* [OS]          : Linux (Tested on Ubuntu 16.04 LTS) (64 BIT Version)
+* [ARCHITECTURE]: 64 BIT  
+* [Memory]      : Based on file executed. Recommeneded : Atleast 8GB.
+* [Compiler]    : g++
 ## STEPS :-
 * Download fully_dynamic_dbg.zip from website.
 * Extract fully_dynamic_dbg.zip.
@@ -14,22 +14,49 @@ The code helps in creating a dynamic de bruijn graph, supporting both addition/d
 * This will generate 3 binary files:-  
   
   a) dbg
-  *[DESCRIPTION]       : Used to test construction of data structure for a given fastq file as input.
-  **[EXECUTION COMMAND] : ./dbg <input_file.fastq>
-  **[EXAMPLE COMMAND]   : ./dbg norovirus.fastq
+  * [DESCRIPTION]       : Used to test construction of data structure for a given fastq file as input.
+
+  ** [EXECUTION COMMAND] : 
+```
+
+  ./dbg <input_file.fastq>
+
+```
+
+  ** [EXAMPLE COMMAND]   : 
+
+```
+./dbg norovirus.fastq
+
+```
   
   b) dbg_unit_test
-  **[DESCRIPTION] 	    : Used for unit testing a sample fastq file already present in current directory : unit_test.fastq
-  	              Edit searchNodes.txt to specify what all nodes to search. (Sample nodes already present)	
-  	      	      Edit insertNodes.txt to specify what all nodes to insert. (Sample nodes already present)
-		      Edit deleteNodes.txt to specify what all nodes to delete. (Sample nodes already present)	
-  **[EXECUTION COMMAND] : ./dbg_unit_test 
-  **[EXAMPLE]           : ./dbg_unit_test
+  ** [DESCRIPTION] 	    : *** Used for unit testing a sample fastq file already present in current directory : unit_test.fastq
+  	              *** Edit searchNodes.txt to specify what all nodes to search. (Sample nodes already present)	
+  	      	      *** Edit insertNodes.txt to specify what all nodes to insert. (Sample nodes already present)
+                  *** Edit deleteNodes.txt to specify what all nodes to delete. (Sample nodes already present)	
+  ** [EXECUTION COMMAND] : 
+```
+./dbg_unit_test 
+
+```
+
+  ** [EXAMPLE]           : 
+```
+./dbg_unit_test
+
+```
+
   Can open generated unit_test_debruijn.txt to see the De Bruijn Graph.
   c) norovirus_test
-  **[DESCRIPTION] : Used for testing construction of datastructure for norovirus.fastq input file.
-  **[EXECUTION COMMAND] : ./norovirus_test 
-  **[EXAMPLE]           : ./norovirus_test
+  ** [DESCRIPTION] : Used for testing construction of datastructure for norovirus.fastq input file.
+  ** [EXECUTION COMMAND] : 
+```
+./norovirus_test 
+
+```
+
+  ** [EXAMPLE]           : ./norovirus_test
   Can open generated norovirus.txt to see the De Bruijn Graph
 
 * For any queries Contact us using our website/Contact section.
