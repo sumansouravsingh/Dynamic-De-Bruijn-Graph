@@ -1,7 +1,7 @@
-#Fully Dynamic De Bruijn Graph
+# Fully Dynamic De Bruijn Graph
 
 ---------------------------------------------------------------
-#System Requirements :
+## System Requirements :
 ---------------------------------------------------------------
 OS          : Linux (Tested on Ubuntu 16.04 LTS) (64 BIT Version)
 ARCHITECTURE: 64 BIT  
@@ -9,7 +9,7 @@ Memory      : Based on file executed. Recommeneded : Atleast 8GB.
 Compiler    : g++
 ---------------------------------------------------------------
 
-#STEPS :-
+## STEPS :-
 ---------------------------------------------------------------
 1. Download fully_dynamic_dbg.zip from website.
 2. Extract fully_dynamic_dbg.zip.
